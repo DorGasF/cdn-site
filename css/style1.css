@@ -1,0 +1,237 @@
+body {
+	background-image: url('http://i.imgur.com/sdGku5N.png');
+	background-position: center auto;
+    background-repeat: repeat-x;
+    background-color: #000;
+    color: #2c3e50;
+    font-family: 'Open Sans',Helvertica,Arial,Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    min-height: 650px;
+    position: relative;
+}
+.logo{
+margin: 0 370px -20px 370px;
+
+}
+.navbar-header{
+	padding-left: 100px;
+}
+.text-center{
+    text-align: center;
+}
+.error{
+    color: #e33a3a;
+}
+
+
+#gwp-footer{
+	background: none repeat scroll 0 0 #2c3e50;
+    bottom: 0;
+    color: #fff;
+    margin: 30px 0 0;
+    padding: 10px 0 5px;
+    position: fixed;
+    width: 100%;
+}
+a:hover{
+	color:#e74c3c;
+    text-decoration: none;
+};
+.pull-left{
+	float:left;
+}
+.pull-right{
+	float: right;
+}
+.navbar-default {
+    background: none repeat scroll 0 0 #fff;
+}
+.form-signup {
+    background: none repeat scroll 0 0 white;
+    margin: 100px auto;
+    padding: 20px;
+    width: 765px;     
+}
+.form-info {
+    background: none repeat scroll 0 0 white;
+    padding: 20px;
+    width: 280px;
+}
+.form-shop{
+    background: none repeat scroll 0 0 white;
+    padding: 20px;
+	overflow: auto;
+}
+.form-signup .column50 {
+    float: left;
+    overflow: hidden;
+    padding-left: 4%;
+    width: 46%;
+}
+.form-control {
+    border-radius: 0;
+    box-shadow: none;
+}
+.info-field{
+    padding-top: 1px;
+}
+.name{
+    width: 0px;
+}
+.shop-item{
+    float: left;
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+.line{
+    margin-bottom:10px;
+}
+#item-field{
+    color:blue;
+    font-weight: bold;
+    padding-right:10px
+}
+.btn {
+    background: none repeat scroll 0 0 #e74c3c;
+    border: medium none;
+    color: #fff;
+    padding: 10px 20px;
+}
+.btn:hover, .btn:active, .btn:focus {
+    background: none repeat scroll 0 0 #eb5545;
+    color: #fff;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .open .dropdown-toggle.btn-default {
+    background: none repeat scroll 0 0 #eb5545;
+    color: #fff;
+}
+.list-group-item {
+    border: medium none !important;
+    margin-bottom: 0;
+    padding: 10px 10px 10px 15%;
+}
+a.list-group-item:hover, a.list-group-item:focus, .list-group-item.actived {
+    color: white;
+}
+a.item-blue:hover, a.item-blue:focus, .item-blue.actived {
+    background: none repeat scroll 0 0 #233343;
+}
+a.item-orange:hover, a.item-orange:focus, .item-orange.actived {
+    background: none repeat scroll 0 0 #f39c12;
+}
+a.item-purple:hover, a.item-purple:focus, .item-purple.actived {
+    background: none repeat scroll 0 0 #8e44ad;
+}
+a.item-green:hover, a.item-green:focus, .item-green.actived {
+    background: none repeat scroll 0 0 #16a085;
+}
+a.item-red:hover, a.item-red:focus, .item-red.actived {
+    background: none repeat scroll 0 0 #e74c3c;
+}
+.tooltip-content {
+width: auto;
+height: auto;
+position: relative;
+}
+#tooltip_item {
+  z-index:9005;
+}
+.ui-tooltip {
+border: 1px solid #353837;
+color: #fff;
+background-color: rgba(34, 34, 34, 0.9);
+padding: 10px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border-radius: 5px;
+-moz-box-shadow: #000 0 0 15px;
+-webkit-box-shadow: #000 0 0 15px;
+box-shadow: #000 0 0 15px;
+font-size: 12px;
+z-index: 9005;
+width: auto;
+height: auto;
+max-width: 300px;
+}
+
+.wiki-tooltip {
+min-width: 30px;
+}
+.tooltips {
+overflow: visible !important;
+position: relative;
+min-width: 50px;
+max-width: 520px;
+font-weight: bold;
+border-collapse: collapse;
+border-spacing: 0;
+}
+.tooltips .hr {
+width: 98%;
+margin-bottom: 5px;
+display: block;
+margin-top: 5px;
+height: 2px;
+}
+.stats {
+color: #FF9933;
+}
+.note {
+color: #9CFF31;
+}
+.tooltips .pham-chat {
+background: url("../images/pham-chat.png") no-repeat top left;
+line-height: 25px;
+padding-left: 35px;
+vertical-align: bottom;
+z-index: 50;
+margin-top: 10px;
+position: relative;
+}
+.tooltips .loai {
+background: url("../images/loai.png") no-repeat center left;
+padding-left: 35px;
+line-height: 25px;
+vertical-align: bottom;
+margin-top: 5px;
+}
+.tooltips .sat-thuong {
+background: url("../images/sat-thuong.png") no-repeat bottom left;
+line-height: 25px;
+vertical-align: bottom;
+padding-left: 80px;
+}
+.tooltips .ao-giap {
+background: url("../images/ao-giap.png") no-repeat bottom left;
+line-height: 25px;
+vertical-align: bottom;
+padding-left: 80px;
+}
+.tooltips .hoi-phuc {
+background: url("../images/hoi-phuc.png") no-repeat bottom left;
+line-height: 25px;
+vertical-align: bottom;
+padding-left: 80px;
+}
+.des {
+color: #FFF;
+}
+footer#rodape {
+     clear: both;
+     color:#fff;
+	 top:300px;
+  margin-top:150px;
+}
+
+footer#rodape p {
+    text-align: center;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+ }
+footer#rodape  a {
+    color: white;
+}
