@@ -15503,7 +15503,7 @@ dd {
 .btn-primary {
 	color: #fff;
 	background-color: #099A8C;
-	width: 223px;
+	width: 265px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 6em -webkit-box-shadow:inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 1px rgba(0, 0, 0, .075);
@@ -15513,7 +15513,7 @@ dd {
 .btn-primary:hover {
 	color: #fff;
 	background-color: #0AA699;
-	width: 223px;
+	width: 265px;
 	margin-left: auto;
 	margin-right: auto;
 	width: 6em border-color:#0AA699
